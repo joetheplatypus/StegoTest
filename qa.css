@@ -8,35 +8,35 @@
     text-rendering: auto;
     line-height: 1
 }
-.fa-xs {
-    font-size: 0.75em
-}
 .fa-sm {
     font-size: 0.875em
 }
-.fa-1x {
-    font-size: 1em
-}
-.fa-lg {
-    font-size: 1.33333em;
-    line-height: 0.75em;
-    vertical-align: -0.0667em
+.fa-xs {
+    font-size: 0.75em
 }
 /*!
  * Font Awesome Pro 5.9.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
  */
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -0.0667em
+}
+.fa-1x {
+    font-size: 1em
+}
 .fa-2x {
     font-size: 2em
 }
 .fa-7x {
     font-size: 7em
 }
-.fa-4x {
-    font-size: 4em
-}
 .fa-5x {
     font-size: 5em
+}
+.fa-4x {
+    font-size: 4em
 }
 .fa-3x {
     font-size: 3em
@@ -52,12 +52,12 @@
     margin-left: 2.5em;
     padding-left: 0
 }
-.fa-9x {
-    font-size: 9em
-}
 .fa-fw {
     text-align: center;
     width: 1.25em
+}
+.fa-9x {
+    font-size: 9em
 }
 .fa-ul > li {
     position: relative
@@ -76,6 +76,9 @@
 .fa.fa-pull-left, .fab.fa-pull-left, .fal.fa-pull-left, .far.fa-pull-left, .fas.fa-pull-left {
     margin-right: 0.3em
 }
+.fa-pull-left {
+    float: left
+}
 .fa-li {
     left: -2em;
     position: absolute;
@@ -86,26 +89,8 @@
 .fa-pull-right {
     float: right
 }
-.fa-pull-left {
-    float: left
-}
 .fa-pulse {
     animation: fa-spin 1s infinite steps(8)
-}
-.fa-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-    transform: rotate(270deg)
-}
-.fa-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-    transform: rotate(90deg)
-}
-.fa-spin {
-    animation: fa-spin 2s infinite linear
-}
-.fa-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    transform: rotate(180deg)
 }
 @keyframes fa-spin {
     0% {
@@ -114,18 +99,29 @@
         transform: rotate(1turn)
         }
     }
+.fa-rotate-270 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    transform: rotate(270deg)
+}
+.fa-rotate-90 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    transform: rotate(90deg)
+}
+.fa-rotate-180 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    transform: rotate(180deg)
+}
+.fa-spin {
+    animation: fa-spin 2s infinite linear
+}
 .fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
     transform: scale(-1)
 }
 :root .fa-flip-both, :root .fa-flip-horizontal, :root .fa-flip-vertical, :root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270 {
     filter: none
 }
-.fa-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-    transform: scalex(-1)
-}
-.fa-flip-vertical {
-    transform: scaley(-1)
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical, .fa-flip-vertical {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
 }
 .fa-stack {
     display: inline-block;
@@ -135,8 +131,12 @@
     vertical-align: middle;
     width: 2.5em
 }
-.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical, .fa-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
+.fa-flip-vertical {
+    transform: scaley(-1)
+}
+.fa-flip-horizontal {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    transform: scalex(-1)
 }
 .fa-500px:before {
     content: ""
@@ -153,11 +153,11 @@
 .fa-abacus:before {
     content: ""
 }
-.fa-stack-1x {
-    line-height: inherit
-}
 .fa-inverse {
     color: #fff
+}
+.fa-stack-1x {
+    line-height: inherit
 }
 .fa-accessible-icon:before {
     content: ""
@@ -183,41 +183,44 @@
 .fa-affiliatetheme:before {
     content: ""
 }
-.fa-adobe:before {
-    content: ""
+.fa-adversal:before {
+    content: ""
 }
 .fa-adjust:before {
     content: ""
 }
-.fa-adversal:before {
-    content: ""
+.fa-adobe:before {
+    content: ""
 }
 .fa-adn:before {
     content: ""
 }
-.fa-airbnb:before {
-    content: ""
-}
 .fa-air-freshener:before {
     content: ""
-}
-.fa-alarm-clock:before {
-    content: ""
-}
-.fa-alarm-exclamation:before {
-    content: ""
 }
 .fa-alarm-snooze:before {
     content: ""
 }
+.fa-airbnb:before {
+    content: ""
+}
 .fa-alarm-plus:before {
     content: ""
+}
+.fa-alarm-exclamation:before {
+    content: ""
+}
+.fa-alarm-clock:before {
+    content: ""
 }
 .fa-algolia:before {
     content: ""
 }
-.fa-align-center:before {
-    content: ""
+.fa-align-right:before {
+    content: ""
+}
+.fa-alicorn:before {
+    content: ""
 }
 .fa-align-justify:before {
     content: ""
@@ -225,11 +228,8 @@
 .fa-align-left:before {
     content: ""
 }
-.fa-alicorn:before {
-    content: ""
-}
-.fa-align-right:before {
-    content: ""
+.fa-align-center:before {
+    content: ""
 }
 .fa-align-slash:before {
     content: ""
@@ -237,17 +237,17 @@
 .fa-ambulance:before {
     content: ""
 }
-.fa-allergies:before {
-    content: ""
+.fa-amazon:before {
+    content: ""
 }
 .fa-alipay:before {
     content: ""
 }
+.fa-allergies:before {
+    content: ""
+}
 .fa-amazon-pay:before {
     content: ""
-}
-.fa-amazon:before {
-    content: ""
 }
 .fa-american-sign-language-interpreting:before {
     content: ""
@@ -255,17 +255,17 @@
 .fa-angel:before {
     content: ""
 }
-.fa-analytics:before {
-    content: ""
-}
-.fa-anchor:before {
-    content: ""
+.fa-amilia:before {
+    content: ""
 }
 .fa-android:before {
     content: ""
 }
-.fa-amilia:before {
-    content: ""
+.fa-anchor:before {
+    content: ""
+}
+.fa-analytics:before {
+    content: ""
 }
 .fa-angellist:before {
     content: ""
@@ -276,11 +276,11 @@
 .fa-angle-double-up:before {
     content: ""
 }
-.fa-angle-double-down:before {
-    content: ""
-}
 .fa-angle-double-left:before {
     content: ""
+}
+.fa-angle-double-down:before {
+    content: ""
 }
 .fa-angle-double-right:before {
     content: ""
@@ -288,8 +288,11 @@
 .fa-angle-left:before {
     content: ""
 }
-.fa-angular:before {
-    content: ""
+.fa-angle-up:before {
+    content: ""
+}
+.fa-angry:before {
+    content: ""
 }
 .fa-angrycreative:before {
     content: ""
@@ -297,11 +300,8 @@
 .fa-angle-right:before {
     content: ""
 }
-.fa-angry:before {
-    content: ""
-}
-.fa-angle-up:before {
-    content: ""
+.fa-angular:before {
+    content: ""
 }
 .fa-ankh:before {
     content: ""
@@ -309,35 +309,35 @@
 .fa-apple:before {
     content: ""
 }
+.fa-apper:before {
+    content: ""
+}
+.fa-app-store-ios:before {
+    content: ""
+}
 .fa-apple-alt:before {
     content: ""
 }
 .fa-app-store:before {
     content: ""
 }
-.fa-app-store-ios:before {
-    content: ""
-}
-.fa-apper:before {
-    content: ""
-}
 .fa-apple-crate:before {
     content: ""
 }
-.fa-archive:before {
-    content: ""
-}
-.fa-archway:before {
-    content: ""
-}
-.fa-arrow-alt-circle-down:before {
-    content: ""
+.fa-arrow-alt-circle-left:before {
+    content: ""
 }
 .fa-apple-pay:before {
     content: ""
 }
-.fa-arrow-alt-circle-left:before {
-    content: ""
+.fa-arrow-alt-circle-down:before {
+    content: ""
+}
+.fa-archway:before {
+    content: ""
+}
+.fa-archive:before {
+    content: ""
 }
 .fa-arrow-alt-circle-right:before {
     content: ""
@@ -363,11 +363,11 @@
 .fa-arrow-alt-square-right:before {
     content: ""
 }
-.fa-arrow-alt-left:before {
-    content: ""
-}
 .fa-arrow-alt-square-left:before {
     content: ""
+}
+.fa-arrow-alt-left:before {
+    content: ""
 }
 .fa-arrow-alt-square-down:before {
     content: ""
@@ -384,14 +384,14 @@
 .fa-arrow-alt-to-bottom:before {
     content: ""
 }
-.fa-arrow-alt-to-right:before {
-    content: ""
+.fa-arrow-alt-to-left:before {
+    content: ""
 }
 .fa-arrow-alt-to-top:before {
     content: ""
 }
-.fa-arrow-alt-to-left:before {
-    content: ""
+.fa-arrow-alt-to-right:before {
+    content: ""
 }
 .fa-arrow-circle-down:before {
     content: ""
@@ -399,14 +399,14 @@
 .fa-arrow-from-bottom:before {
     content: ""
 }
-.fa-arrow-down:before {
-    content: ""
+.fa-arrow-circle-right:before {
+    content: ""
 }
 .fa-arrow-circle-left:before {
     content: ""
 }
-.fa-arrow-circle-right:before {
-    content: ""
+.fa-arrow-down:before {
+    content: ""
 }
 .fa-arrow-circle-up:before {
     content: ""
@@ -432,38 +432,38 @@
 .fa-arrow-square-left:before {
     content: ""
 }
-.fa-arrow-to-right:before {
-    content: ""
-}
-.fa-arrow-to-left:before {
-    content: ""
-}
 .fa-arrow-square-up:before {
     content: ""
-}
-.fa-arrow-square-right:before {
-    content: ""
 }
 .fa-arrow-to-bottom:before {
     content: ""
 }
+.fa-arrow-to-left:before {
+    content: ""
+}
+.fa-arrow-square-right:before {
+    content: ""
+}
+.fa-arrow-to-right:before {
+    content: ""
+}
 .fa-arrow-to-top:before {
     content: ""
 }
-.fa-arrows-alt-h:before {
-    content: ""
-}
-.fa-arrows-alt-v:before {
-    content: ""
-}
-.fa-arrows-alt:before {
-    content: ""
+.fa-arrows:before {
+    content: ""
 }
 .fa-arrow-up:before {
     content: ""
 }
-.fa-arrows:before {
-    content: ""
+.fa-arrows-alt-v:before {
+    content: ""
+}
+.fa-arrows-alt-h:before {
+    content: ""
+}
+.fa-arrows-alt:before {
+    content: ""
 }
 .fa-arrows-h:before {
     content: ""
@@ -471,14 +471,14 @@
 .fa-asymmetrik:before {
     content: ""
 }
-.fa-assistive-listening-systems:before {
-    content: ""
-}
 .fa-arrows-v:before {
     content: ""
 }
 .fa-asterisk:before {
     content: ""
+}
+.fa-assistive-listening-systems:before {
+    content: ""
 }
 .fa-artstation:before {
     content: ""
@@ -489,17 +489,17 @@
 .fa-audible:before {
     content: ""
 }
-.fa-atlas:before {
-    content: ""
-}
 .fa-atom:before {
     content: ""
 }
-.fa-atom-alt:before {
-    content: ""
-}
 .fa-atlassian:before {
     content: ""
+}
+.fa-atlas:before {
+    content: ""
+}
+.fa-atom-alt:before {
+    content: ""
 }
 .fa-audio-description:before {
     content: ""
@@ -510,14 +510,14 @@
 .fa-award:before {
     content: ""
 }
+.fa-avianex:before {
+    content: ""
+}
 .fa-autoprefixer:before {
     content: ""
 }
 .fa-aviato:before {
     content: ""
-}
-.fa-avianex:before {
-    content: ""
 }
 .fa-axe-battle:before {
     content: ""
@@ -525,11 +525,11 @@
 .fa-backspace:before {
     content: ""
 }
-.fa-backpack:before {
-    content: ""
-}
 .fa-axe:before {
     content: ""
+}
+.fa-backpack:before {
+    content: ""
 }
 .fa-baby:before {
     content: ""
@@ -543,14 +543,14 @@
 .fa-badge:before {
     content: ""
 }
+.fa-badge-percent:before {
+    content: ""
+}
 .fa-bacon:before {
     content: ""
 }
 .fa-badge-check:before {
     content: ""
-}
-.fa-badge-percent:before {
-    content: ""
 }
 .fa-badge-dollar:before {
     content: ""
@@ -558,20 +558,20 @@
 .fa-badger-honey:before {
     content: ""
 }
-.fa-ball-pile:before {
-    content: ""
-}
 .fa-balance-scale-left:before {
     content: ""
 }
-.fa-bags-shopping:before {
-    content: ""
+.fa-balance-scale-right:before {
+    content: ""
 }
 .fa-balance-scale:before {
     content: ""
 }
-.fa-balance-scale-right:before {
-    content: ""
+.fa-bags-shopping:before {
+    content: ""
+}
+.fa-ball-pile:before {
+    content: ""
 }
 .fa-ballot-check:before {
     content: ""
@@ -579,26 +579,29 @@
 .fa-barcode:before {
     content: ""
 }
-.fa-ballot:before {
-    content: ""
-}
-.fa-bandcamp:before {
-    content: ""
-}
 .fa-band-aid:before {
     content: ""
 }
 .fa-ban:before {
     content: ""
 }
+.fa-ballot:before {
+    content: ""
+}
+.fa-bandcamp:before {
+    content: ""
+}
 .fa-barcode-alt:before {
     content: ""
 }
-.fa-barcode-scan:before {
-    content: ""
-}
 .fa-baseball:before {
     content: ""
+}
+.fa-bars:before {
+    content: ""
+}
+.fa-barcode-scan:before {
+    content: ""
 }
 .fa-baseball-ball:before {
     content: ""
@@ -606,20 +609,17 @@
 .fa-barcode-read:before {
     content: ""
 }
-.fa-bars:before {
-    content: ""
-}
 .fa-basketball-ball:before {
     content: ""
-}
-.fa-bat:before {
-    content: ""
 }
 .fa-battery-empty:before {
     content: ""
 }
 .fa-battery-bolt:before {
     content: ""
+}
+.fa-bat:before {
+    content: ""
 }
 .fa-basketball-hoop:before {
     content: ""
@@ -633,8 +633,8 @@
 .fa-battery-quarter:before {
     content: ""
 }
-.fa-battle-net:before {
-    content: ""
+.fa-battery-slash:before {
+    content: ""
 }
 .fa-battery-three-quarters:before {
     content: ""
@@ -642,26 +642,26 @@
 .fa-battery-half:before {
     content: ""
 }
-.fa-battery-slash:before {
-    content: ""
+.fa-battle-net:before {
+    content: ""
 }
 .fa-bed:before {
     content: ""
 }
-.fa-behance-square:before {
-    content: ""
-}
-.fa-behance:before {
-    content: ""
+.fa-bell:before {
+    content: ""
 }
 .fa-bell-exclamation:before {
     content: ""
 }
+.fa-behance-square:before {
+    content: ""
+}
 .fa-beer:before {
     content: ""
 }
-.fa-bell:before {
-    content: ""
+.fa-behance:before {
+    content: ""
 }
 .fa-bell-plus:before {
     content: ""
@@ -669,11 +669,11 @@
 .fa-bezier-curve:before {
     content: ""
 }
-.fa-bells:before {
-    content: ""
-}
 .fa-bell-school-slash:before {
     content: ""
+}
+.fa-bells:before {
+    content: ""
 }
 .fa-bell-slash:before {
     content: ""
@@ -687,14 +687,14 @@
 .fa-binoculars:before {
     content: ""
 }
-.fa-biking-mountain:before {
-    content: ""
-}
 .fa-biking:before {
     content: ""
 }
 .fa-bicycle:before {
     content: ""
+}
+.fa-biking-mountain:before {
+    content: ""
 }
 .fa-bimobject:before {
     content: ""
@@ -705,14 +705,14 @@
 .fa-black-tie:before {
     content: ""
 }
-.fa-bitbucket:before {
-    content: ""
-}
 .fa-bitcoin:before {
     content: ""
 }
 .fa-birthday-cake:before {
     content: ""
+}
+.fa-bitbucket:before {
+    content: ""
 }
 .fa-bity:before {
     content: ""
@@ -720,32 +720,23 @@
 .fa-blackberry:before {
     content: ""
 }
-.fa-blog:before {
-    content: ""
-}
 .fa-blender-phone:before {
     content: ""
 }
 .fa-blender:before {
     content: ""
 }
-.fa-blanket:before {
-    content: ""
-}
 .fa-blind:before {
     content: ""
 }
+.fa-blanket:before {
+    content: ""
+}
+.fa-blog:before {
+    content: ""
+}
 .fa-blogger-b:before {
     content: ""
-}
-.fa-bluetooth-b:before {
-    content: ""
-}
-.fa-bluetooth:before {
-    content: ""
-}
-.fa-bold:before {
-    content: ""
 }
 .fa-bolt:before {
     content: ""
@@ -753,23 +744,35 @@
 .fa-blogger:before {
     content: ""
 }
+.fa-bluetooth-b:before {
+    content: ""
+}
+.fa-bold:before {
+    content: ""
+}
+.fa-bluetooth:before {
+    content: ""
+}
 .fa-bomb:before {
     content: ""
-}
-.fa-bone:before {
-    content: ""
-}
-.fa-bong:before {
-    content: ""
-}
-.fa-book-alt:before {
-    content: ""
 }
 .fa-book:before {
     content: ""
 }
+.fa-bong:before {
+    content: ""
+}
+.fa-bone:before {
+    content: ""
+}
 .fa-bone-break:before {
     content: ""
+}
+.fa-book-alt:before {
+    content: ""
+}
+.fa-book-heart:before {
+    content: ""
 }
 .fa-book-dead:before {
     content: ""
@@ -780,20 +783,17 @@
 .fa-book-open:before {
     content: ""
 }
-.fa-book-reader:before {
-    content: ""
-}
 .fa-book-spells:before {
     content: ""
 }
-.fa-book-heart:before {
-    content: ""
+.fa-book-reader:before {
+    content: ""
 }
 .fa-book-user:before {
     content: ""
 }
-.fa-bookmark:before {
-    content: ""
+.fa-booth-curtain:before {
+    content: ""
 }
 .fa-books:before {
     content: ""
@@ -804,32 +804,38 @@
 .fa-boot:before {
     content: ""
 }
-.fa-booth-curtain:before {
-    content: ""
+.fa-bookmark:before {
+    content: ""
 }
 .fa-bootstrap:before {
     content: ""
 }
-.fa-border-all:before {
-    content: ""
-}
-.fa-border-bottom:before {
-    content: ""
+.fa-border-none:before {
+    content: ""
 }
 .fa-border-inner:before {
     content: ""
 }
+.fa-border-bottom:before {
+    content: ""
+}
+.fa-border-all:before {
+    content: ""
+}
 .fa-border-left:before {
     content: ""
-}
-.fa-border-none:before {
-    content: ""
 }
 .fa-border-outer:before {
     content: ""
 }
+.fa-bow-arrow:before {
+    content: ""
+}
 .fa-border-right:before {
     content: ""
+}
+.fa-border-top:before {
+    content: ""
 }
 .fa-border-style:before {
     content: ""
@@ -837,50 +843,41 @@
 .fa-border-style-alt:before {
     content: ""
 }
-.fa-border-top:before {
-    content: ""
-}
-.fa-bow-arrow:before {
-    content: ""
-}
 .fa-bowling-ball:before {
     content: ""
-}
-.fa-bowling-pins:before {
-    content: ""
-}
-.fa-box:before {
-    content: ""
 }
 .fa-box-alt:before {
     content: ""
 }
-.fa-box-ballot:before {
-    content: ""
+.fa-box:before {
+    content: ""
 }
 .fa-box-check:before {
     content: ""
 }
+.fa-bowling-pins:before {
+    content: ""
+}
+.fa-box-ballot:before {
+    content: ""
+}
 .fa-box-fragile:before {
     content: ""
-}
-.fa-box-full:before {
-    content: ""
 }
 .fa-box-heart:before {
     content: ""
 }
-.fa-box-open:before {
-    content: ""
+.fa-box-usd:before {
+    content: ""
 }
 .fa-box-up:before {
     content: ""
 }
-.fa-box-usd:before {
-    content: ""
+.fa-box-full:before {
+    content: ""
 }
-.fa-boxes:before {
-    content: ""
+.fa-box-open:before {
+    content: ""
 }
 .fa-boxes-alt:before {
     content: ""
@@ -888,32 +885,35 @@
 .fa-boxing-glove:before {
     content: ""
 }
+.fa-braille:before {
+    content: ""
+}
 .fa-brackets:before {
     content: ""
+}
+.fa-boxes:before {
+    content: ""
 }
 .fa-brackets-curly:before {
     content: ""
 }
-.fa-braille:before {
-    content: ""
-}
 .fa-brain:before {
     content: ""
-}
-.fa-bread-loaf:before {
-    content: ""
 }
 .fa-bread-slice:before {
     content: ""
 }
+.fa-bring-forward:before {
+    content: ""
+}
 .fa-briefcase:before {
     content: ""
 }
+.fa-bread-loaf:before {
+    content: ""
+}
 .fa-briefcase-medical:before {
     content: ""
-}
-.fa-bring-forward:before {
-    content: ""
 }
 .fa-bring-front:before {
     content: ""
