@@ -32,17 +32,17 @@
 .fa-7x {
     font-size: 7em
 }
-.fa-5x {
-    font-size: 5em
+.fa-6x {
+    font-size: 6em
 }
 .fa-4x {
     font-size: 4em
 }
+.fa-5x {
+    font-size: 5em
+}
 .fa-3x {
     font-size: 3em
-}
-.fa-6x {
-    font-size: 6em
 }
 .fa-10x {
     font-size: 10em
@@ -52,18 +52,18 @@
     margin-left: 2.5em;
     padding-left: 0
 }
-.fa-fw {
-    text-align: center;
-    width: 1.25em
+.fa-ul > li {
+    position: relative
 }
 .fa-9x {
     font-size: 9em
 }
-.fa-ul > li {
-    position: relative
-}
 .fa-8x {
     font-size: 8em
+}
+.fa-fw {
+    text-align: center;
+    width: 1.25em
 }
 .fa-border {
     border: 0.08em solid #eee;
@@ -73,11 +73,14 @@
 .fa.fa-pull-right, .fab.fa-pull-right, .fal.fa-pull-right, .far.fa-pull-right, .fas.fa-pull-right {
     margin-left: 0.3em
 }
-.fa.fa-pull-left, .fab.fa-pull-left, .fal.fa-pull-left, .far.fa-pull-left, .fas.fa-pull-left {
-    margin-right: 0.3em
+.fa-pull-right {
+    float: right
 }
 .fa-pull-left {
     float: left
+}
+.fa.fa-pull-left, .fab.fa-pull-left, .fal.fa-pull-left, .far.fa-pull-left, .fas.fa-pull-left {
+    margin-right: 0.3em
 }
 .fa-li {
     left: -2em;
@@ -85,9 +88,6 @@
     text-align: center;
     width: 2em;
     line-height: inherit
-}
-.fa-pull-right {
-    float: right
 }
 .fa-pulse {
     animation: fa-spin 1s infinite steps(8)
@@ -99,10 +99,6 @@
         transform: rotate(1turn)
         }
     }
-.fa-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-    transform: rotate(270deg)
-}
 .fa-rotate-90 {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     transform: rotate(90deg)
@@ -114,6 +110,10 @@
 .fa-spin {
     animation: fa-spin 2s infinite linear
 }
+.fa-rotate-270 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    transform: rotate(270deg)
+}
 .fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
     transform: scale(-1)
 }
@@ -122,6 +122,10 @@
 }
 .fa-flip-both, .fa-flip-horizontal.fa-flip-vertical, .fa-flip-vertical {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)"
+}
+.fa-flip-horizontal {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    transform: scalex(-1)
 }
 .fa-stack {
     display: inline-block;
@@ -133,10 +137,6 @@
 }
 .fa-flip-vertical {
     transform: scaley(-1)
-}
-.fa-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-    transform: scalex(-1)
 }
 .fa-500px:before {
     content: ""
@@ -150,11 +150,11 @@
     text-align: center;
     width: 100%
 }
-.fa-abacus:before {
-    content: ""
-}
 .fa-inverse {
     color: #fff
+}
+.fa-abacus:before {
+    content: ""
 }
 .fa-stack-1x {
     line-height: inherit
@@ -162,20 +162,20 @@
 .fa-accessible-icon:before {
     content: ""
 }
-.fa-acorn:before {
-    content: ""
-}
-.fa-acquisitions-incorporated:before {
-    content: ""
-}
-.fa-ad:before {
-    content: ""
+.fa-address-book:before {
+    content: ""
 }
 .fa-accusoft:before {
     content: ""
 }
-.fa-address-book:before {
-    content: ""
+.fa-ad:before {
+    content: ""
+}
+.fa-acquisitions-incorporated:before {
+    content: ""
+}
+.fa-acorn:before {
+    content: ""
 }
 .fa-address-card:before {
     content: ""
@@ -183,35 +183,35 @@
 .fa-affiliatetheme:before {
     content: ""
 }
-.fa-adversal:before {
-    content: ""
-}
 .fa-adjust:before {
     content: ""
 }
-.fa-adobe:before {
-    content: ""
+.fa-adversal:before {
+    content: ""
 }
 .fa-adn:before {
     content: ""
 }
+.fa-adobe:before {
+    content: ""
+}
 .fa-air-freshener:before {
     content: ""
 }
-.fa-alarm-snooze:before {
-    content: ""
-}
-.fa-airbnb:before {
-    content: ""
-}
-.fa-alarm-plus:before {
-    content: ""
+.fa-alarm-clock:before {
+    content: ""
 }
 .fa-alarm-exclamation:before {
     content: ""
 }
-.fa-alarm-clock:before {
-    content: ""
+.fa-alarm-plus:before {
+    content: ""
+}
+.fa-airbnb:before {
+    content: ""
+}
+.fa-alarm-snooze:before {
+    content: ""
 }
 .fa-algolia:before {
     content: ""
@@ -219,14 +219,14 @@
 .fa-align-right:before {
     content: ""
 }
+.fa-align-left:before {
+    content: ""
+}
 .fa-alicorn:before {
     content: ""
 }
 .fa-align-justify:before {
     content: ""
-}
-.fa-align-left:before {
-    content: ""
 }
 .fa-align-center:before {
     content: ""
@@ -237,17 +237,17 @@
 .fa-ambulance:before {
     content: ""
 }
-.fa-amazon:before {
-    content: ""
-}
 .fa-alipay:before {
     content: ""
 }
-.fa-allergies:before {
-    content: ""
+.fa-amazon:before {
+    content: ""
 }
 .fa-amazon-pay:before {
     content: ""
+}
+.fa-allergies:before {
+    content: ""
 }
 .fa-american-sign-language-interpreting:before {
     content: ""
@@ -258,11 +258,11 @@
 .fa-amilia:before {
     content: ""
 }
-.fa-android:before {
-    content: ""
-}
 .fa-anchor:before {
     content: ""
+}
+.fa-android:before {
+    content: ""
 }
 .fa-analytics:before {
     content: ""
@@ -276,11 +276,11 @@
 .fa-angle-double-up:before {
     content: ""
 }
-.fa-angle-double-left:before {
-    content: ""
-}
 .fa-angle-double-down:before {
     content: ""
+}
+.fa-angle-double-left:before {
+    content: ""
 }
 .fa-angle-double-right:before {
     content: ""
@@ -288,20 +288,20 @@
 .fa-angle-left:before {
     content: ""
 }
-.fa-angle-up:before {
-    content: ""
-}
-.fa-angry:before {
-    content: ""
-}
-.fa-angrycreative:before {
-    content: ""
+.fa-angular:before {
+    content: ""
 }
 .fa-angle-right:before {
     content: ""
 }
-.fa-angular:before {
-    content: ""
+.fa-angrycreative:before {
+    content: ""
+}
+.fa-angry:before {
+    content: ""
+}
+.fa-angle-up:before {
+    content: ""
 }
 .fa-ankh:before {
     content: ""
@@ -309,35 +309,35 @@
 .fa-apple:before {
     content: ""
 }
-.fa-apper:before {
-    content: ""
-}
-.fa-app-store-ios:before {
-    content: ""
-}
 .fa-apple-alt:before {
     content: ""
 }
 .fa-app-store:before {
     content: ""
 }
+.fa-app-store-ios:before {
+    content: ""
+}
+.fa-apper:before {
+    content: ""
+}
 .fa-apple-crate:before {
     content: ""
 }
-.fa-arrow-alt-circle-left:before {
-    content: ""
-}
-.fa-apple-pay:before {
-    content: ""
-}
-.fa-arrow-alt-circle-down:before {
-    content: ""
+.fa-archive:before {
+    content: ""
 }
 .fa-archway:before {
     content: ""
 }
-.fa-archive:before {
-    content: ""
+.fa-arrow-alt-circle-down:before {
+    content: ""
+}
+.fa-apple-pay:before {
+    content: ""
+}
+.fa-arrow-alt-circle-left:before {
+    content: ""
 }
 .fa-arrow-alt-circle-right:before {
     content: ""
@@ -345,14 +345,14 @@
 .fa-arrow-alt-from-right:before {
     content: ""
 }
-.fa-arrow-alt-from-left:before {
-    content: ""
+.fa-arrow-alt-from-bottom:before {
+    content: ""
 }
 .fa-arrow-alt-circle-up:before {
     content: ""
 }
-.fa-arrow-alt-from-bottom:before {
-    content: ""
+.fa-arrow-alt-from-left:before {
+    content: ""
 }
 .fa-arrow-alt-down:before {
     content: ""
@@ -363,11 +363,11 @@
 .fa-arrow-alt-square-right:before {
     content: ""
 }
-.fa-arrow-alt-square-left:before {
-    content: ""
-}
 .fa-arrow-alt-left:before {
     content: ""
+}
+.fa-arrow-alt-square-left:before {
+    content: ""
 }
 .fa-arrow-alt-square-down:before {
     content: ""
@@ -381,17 +381,17 @@
 .fa-arrow-alt-up:before {
     content: ""
 }
-.fa-arrow-alt-to-bottom:before {
-    content: ""
-}
-.fa-arrow-alt-to-left:before {
-    content: ""
-}
 .fa-arrow-alt-to-top:before {
     content: ""
 }
+.fa-arrow-alt-to-bottom:before {
+    content: ""
+}
 .fa-arrow-alt-to-right:before {
     content: ""
+}
+.fa-arrow-alt-to-left:before {
+    content: ""
 }
 .fa-arrow-circle-down:before {
     content: ""
@@ -399,17 +399,17 @@
 .fa-arrow-from-bottom:before {
     content: ""
 }
-.fa-arrow-circle-right:before {
-    content: ""
+.fa-arrow-down:before {
+    content: ""
 }
 .fa-arrow-circle-left:before {
     content: ""
 }
-.fa-arrow-down:before {
-    content: ""
-}
 .fa-arrow-circle-up:before {
     content: ""
+}
+.fa-arrow-circle-right:before {
+    content: ""
 }
 .fa-arrow-from-left:before {
     content: ""
@@ -420,32 +420,32 @@
 .fa-arrow-from-right:before {
     content: ""
 }
+.fa-arrow-from-top:before {
+    content: ""
+}
 .fa-arrow-right:before {
     content: ""
 }
 .fa-arrow-left:before {
     content: ""
 }
-.fa-arrow-from-top:before {
-    content: ""
-}
 .fa-arrow-square-left:before {
     content: ""
+}
+.fa-arrow-to-right:before {
+    content: ""
 }
 .fa-arrow-square-up:before {
     content: ""
 }
-.fa-arrow-to-bottom:before {
-    content: ""
+.fa-arrow-square-right:before {
+    content: ""
 }
 .fa-arrow-to-left:before {
     content: ""
 }
-.fa-arrow-square-right:before {
-    content: ""
-}
-.fa-arrow-to-right:before {
-    content: ""
+.fa-arrow-to-bottom:before {
+    content: ""
 }
 .fa-arrow-to-top:before {
     content: ""
@@ -456,32 +456,32 @@
 .fa-arrow-up:before {
     content: ""
 }
+.fa-arrows-alt:before {
+    content: ""
+}
 .fa-arrows-alt-v:before {
     content: ""
 }
 .fa-arrows-alt-h:before {
     content: ""
 }
-.fa-arrows-alt:before {
-    content: ""
-}
 .fa-arrows-h:before {
     content: ""
 }
-.fa-asymmetrik:before {
-    content: ""
-}
-.fa-arrows-v:before {
-    content: ""
-}
-.fa-asterisk:before {
-    content: ""
+.fa-artstation:before {
+    content: ""
 }
 .fa-assistive-listening-systems:before {
     content: ""
 }
-.fa-artstation:before {
-    content: ""
+.fa-asterisk:before {
+    content: ""
+}
+.fa-arrows-v:before {
+    content: ""
+}
+.fa-asymmetrik:before {
+    content: ""
 }
 .fa-at:before {
     content: ""
@@ -489,17 +489,17 @@
 .fa-audible:before {
     content: ""
 }
+.fa-atom-alt:before {
+    content: ""
+}
 .fa-atom:before {
     content: ""
-}
-.fa-atlassian:before {
-    content: ""
 }
 .fa-atlas:before {
     content: ""
 }
-.fa-atom-alt:before {
-    content: ""
+.fa-atlassian:before {
+    content: ""
 }
 .fa-audio-description:before {
     content: ""
@@ -507,17 +507,17 @@
 .fa-aws:before {
     content: ""
 }
-.fa-award:before {
-    content: ""
-}
-.fa-avianex:before {
-    content: ""
-}
 .fa-autoprefixer:before {
     content: ""
 }
+.fa-award:before {
+    content: ""
+}
 .fa-aviato:before {
     content: ""
+}
+.fa-avianex:before {
+    content: ""
 }
 .fa-axe-battle:before {
     content: ""
@@ -543,6 +543,9 @@
 .fa-badge:before {
     content: ""
 }
+.fa-badge-dollar:before {
+    content: ""
+}
 .fa-badge-percent:before {
     content: ""
 }
@@ -552,17 +555,11 @@
 .fa-badge-check:before {
     content: ""
 }
-.fa-badge-dollar:before {
-    content: ""
-}
 .fa-badger-honey:before {
     content: ""
 }
-.fa-balance-scale-left:before {
-    content: ""
-}
-.fa-balance-scale-right:before {
-    content: ""
+.fa-ball-pile:before {
+    content: ""
 }
 .fa-balance-scale:before {
     content: ""
@@ -570,26 +567,29 @@
 .fa-bags-shopping:before {
     content: ""
 }
-.fa-ball-pile:before {
-    content: ""
+.fa-balance-scale-right:before {
+    content: ""
+}
+.fa-balance-scale-left:before {
+    content: ""
 }
 .fa-ballot-check:before {
     content: ""
 }
-.fa-barcode:before {
-    content: ""
+.fa-ban:before {
+    content: ""
 }
 .fa-band-aid:before {
     content: ""
 }
-.fa-ban:before {
-    content: ""
+.fa-bandcamp:before {
+    content: ""
+}
+.fa-barcode:before {
+    content: ""
 }
 .fa-ballot:before {
     content: ""
-}
-.fa-bandcamp:before {
-    content: ""
 }
 .fa-barcode-alt:before {
     content: ""
@@ -11734,9 +11734,9 @@ table td {
     appearance: none;
     background-color: #fff;
     /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
-    		for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
-    		
-    	*/
+        		for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+        		
+        	*/
     background-repeat: no-repeat, repeat;
     /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
     background-position: right 0.7em top 50%, 0 0;
@@ -12330,7 +12330,7 @@ a.footer__smLinkedin i {
     height: 468px;
     min-height: 468px;
     /*display: flex;
-        flex-wrap:wrap;*/
+            flex-wrap:wrap;*/
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -13119,8 +13119,8 @@ p.courseBanner__discountSubheader, p.courseBanner__discountWas, p.courseBanner__
         padding-bottom: 6px
     }
     /*.has-tag .breadcrumbs {
-            margin-top:-9px;
-        }*/
+                margin-top:-9px;
+            }*/
 }
 .shareDropdown__shareLink, .shareDropdown__pdfLink, .shareDropdown__emailLink {
     font-size: 12px;
@@ -13375,7 +13375,7 @@ p.courseBanner__discountSubheader {
 }
 a.fc04__section[href]:hover {
     /*transform: scale(1.03);
-    	z-index: 10;*/
+        	z-index: 10;*/
 }
 a.fc04__section[href] .fc04__arrow {
     transition: 0.2s;
@@ -13602,8 +13602,8 @@ a.fc04__section[href]:hover .fc04__arrow {
 }
 .fc07 .row > div {
     /*max-width: none !important;
-    	width: auto;
-    	flex: 1;*/
+        	width: auto;
+        	flex: 1;*/
 }
 .fc07__title {
     text-align: center;
@@ -14451,8 +14451,8 @@ a.fc04__section[href]:hover .fc04__arrow {
 }
 @media (max-width: 767px) {
     /*.listerTile__bottom {
-            display:none;
-        }*/
+                display:none;
+            }*/
 }
 .listerTile__blurb {
     max-height: 44%;
@@ -16841,7 +16841,7 @@ a.fc04__section[href]:hover .fc04__arrow {
     padding-left: 6px;
     padding-right: 6px;
     /*width: 33.33% !important;
-    	max-width: 33.33%;*/
+        	max-width: 33.33%;*/
 }
 @media (max-width: 1199px) {
     .diagram__pathwayPhase {
@@ -17711,7 +17711,7 @@ a.fc04__section[href]:hover .fc04__arrow {
     .searchForm__header, .search .search__filterLabel {
         background: #004050;
         /*margin-left: -24px;
-                margin-right: -24px;*/
+                        margin-right: -24px;*/
         padding: 10px 24px;
         display: flex;
         padding: 15px 24px
@@ -17755,7 +17755,7 @@ a.fc04__section[href]:hover .fc04__arrow {
     }
     .searchForm__body {
         /*margin-left: -24px;
-                margin-right: -24px;*/
+                        margin-right: -24px;*/
         display: none;
         background: #ECECEC
     }
@@ -18827,7 +18827,7 @@ a.fc04__section[href]:hover .fc04__arrow {
 }
 #thinkForm input[type="radio"], #thinkForm input[type="checkbox"] {
     margin: 4px 0 0;
-    margin-top: 1px 	;
+    margin-top: 1px;
     line-height: normal
 }
 #thinkForm .radio-button label:not(.error), #thinkForm .radio-button label + label:not(.error) {
@@ -19016,7 +19016,7 @@ a.fc04__section[href]:hover .fc04__arrow {
     font-weight: 800;
     margin-bottom: 30px;
     /*padding-left: 12px;
-    	padding-right: 12px;*/
+        	padding-right: 12px;*/
 }
 @media (max-width: 767px) {
     #thinkForm .thinkforms__group > label, #thinkForm .thinkforms__html > label {
