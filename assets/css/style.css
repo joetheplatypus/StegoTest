@@ -26,43 +26,43 @@
 	  
 ------------------------------------------------- 
 */
-/* line 33, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
-/*-------------   Color Variable  --------------*/
 @import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap");
-.gray-bg {
-    background: #F5F9FB
-}
-/*-------------Color include--------------*/
+/*-------------   Color Variable  --------------*/
+/* line 33, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .white-bg {
     background: #fff
 }
-/*-- Background color---*/
-/* line 60, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+.gray-bg {
+    background: #F5F9FB
+}
 /* line 36, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+/* line 60, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+/*-------------Color include--------------*/
+/*-- Background color---*/
 .black-bg {
     background: #16161a
-}
-/* line 69, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
-/* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
-.brand-bg {
-    background: #f1f4fa
 }
 .gray-bg {
     background: #f7f7fd
 }
+/* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 /* line 66, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+.brand-bg {
+    background: #f1f4fa
+}
+/* line 69, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .black-color {
     color: #16161a
 }
 /*--- color------*/
-/* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+/* line 75, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .testimonial-bg {
     background: #f9fafc
 }
+/* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-bg {
     background: #FF3514
 }
-/* line 75, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .boxed-btn {
     background: #fff;
     color: #FF3514 !important;
@@ -80,50 +80,42 @@
     cursor: pointer
 }
 /* line 87, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
-/* line 81, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+/* line 84, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .white-color {
     color: #fff
 }
-/* line 84, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
+/* line 81, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_color.scss */
 .theme-color {
     color: #FF3514
 }
 .boxed-btn.large-width {
     width: 220px
 }
-.boxed-btn:hover {
-    background: #FF3514;
-    color: #fff !important;
-    border: 1px solid #FF3514
-}
+/* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
 /* line 50, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
 /* line 67, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
 .boxed-btn:focus {
     outline: none
 }
-/* line 72, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
+.boxed-btn:hover {
+    background: #FF3514;
+    color: #fff !important;
+    border: 1px solid #FF3514
+}
 /* line 22, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
-/*--
-    - Overlay
-------------------------------------------*/
-/* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
-/* line 75, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
 [data-overlay] {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center
 }
+/* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
+/*--
+    - Overlay
+------------------------------------------*/
 /* line 9, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
+/* line 75, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_variables.scss */
 /* line 27, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
-/*-- Overlay Opacity --*/
-[data-opacity="1"]::before {
-    opacity: 0.1
-}
-[data-opacity="2"]::before {
-    opacity: 0.2
-}
-/* line 32, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
 [data-overlay]::before {
     position: absolute;
     left: 0;
@@ -132,30 +124,38 @@
     bottom: 0;
     content: ""
 }
+[data-opacity="2"]::before {
+    opacity: 0.2
+}
+/* line 32, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
+/*-- Overlay Opacity --*/
+[data-opacity="1"]::before {
+    opacity: 0.1
+}
 /* line 37, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
-[data-opacity="5"]::before {
-    opacity: 0.5
+/* line 47, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
+[data-opacity="3"]::before {
+    opacity: 0.3
 }
 [data-opacity="4"]::before {
     opacity: 0.4
 }
-/* line 47, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
 /* line 42, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
-[data-opacity="3"]::before {
-    opacity: 0.3
+[data-opacity="5"]::before {
+    opacity: 0.5
 }
 /* 1. Theme default css */
 [data-opacity="8"]::before {
     opacity: 0.8
 }
-/* line 57, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
-[data-opacity="6"]::before {
-    opacity: 0.6
-}
-/* line 52, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
 [data-opacity="7"]::before {
     opacity: 0.7
 }
+/* line 52, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
+[data-opacity="6"]::before {
+    opacity: 0.6
+}
+/* line 57, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
 .bg-img-1 {
     background-image: url(../img/slider/slider-img-1.jpg)
 }
@@ -165,12 +165,12 @@ body {
     font-style: normal;
     font-size: 16px
 }
-/* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 62, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
+/* line 10, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 [data-opacity="9"]::before {
     opacity: 0.9
 }
-/* line 10, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 62, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_overlay.scss */
+/* line 4, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .bg-img-2 {
     background-image: url(../img/background-img/bg-img-2.jpg)
 }
@@ -182,9 +182,8 @@ p {
     margin-bottom: 15px;
     font-weight: normal
 }
-/* line 38, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 35, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 24, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 38, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Muli", sans-serif;
     color: #072366;
@@ -193,10 +192,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     text-transform: normal
 }
+/* line 35, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .cta-bg-1 {
     background-image: url(../img/background-img/bg-img-3.jpg)
 }
 /* line 50, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 46, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+.f-right {
+    float: right
+}
 .img {
     max-width: 100%;
     -webkit-transition: 0.3s;
@@ -204,23 +208,19 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: 0.3s;
     transition: 0.3s
 }
-/* line 46, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 41, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-.f-right {
-    float: right
-}
 .clear {
     clear: both
 }
-.fix {
-    overflow: hidden
-}
-/* line 53, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 56, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 59, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .f-left {
     float: left
 }
-/* line 59, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 56, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 53, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+.fix {
+    overflow: hidden
+}
 /* line 63, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 a:focus, .button:focus {
     text-decoration: none;
@@ -238,16 +238,16 @@ a, .button {
 .uppercase {
     text-transform: uppercase
 }
-a:hover {
-    color: #fff
-}
 /* line 84, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 a {
     color: #635c5c
 }
-/* line 78, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
     text-decoration: none
+}
+/* line 78, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+a:hover {
+    color: #fff
 }
 .capitalize {
     text-transform: capitalize
@@ -255,13 +255,13 @@ a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
 button:focus, input:focus, input:focus, textarea, textarea:focus {
     outline: 0
 }
-/* line 90, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 94, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 89, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 a, button {
     color: #fff;
     outline: medium none
 }
-/* line 89, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 90, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* Theme-overlay */
 input:focus::-moz-placeholder {
     opacity: 0;
@@ -269,37 +269,35 @@ input:focus::-moz-placeholder {
     -o-transition: 0.4s;
     transition: 0.4s
 }
+/* line 101, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit
 }
-/* line 101, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 114, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 105, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .overlay2 {
     position: relative;
     z-index: 0
 }
-/* line 122, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-hr {
-    border-bottom: 1px solid #eceff8;
-    border-top: 0 none;
-    margin: 30px 0;
+ul {
+    margin: 0;
     padding: 0
 }
 li {
     list-style: none
 }
 /* line 118, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-ul {
-    margin: 0;
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
     padding: 0
 }
+/* line 122, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .theme-overlay {
     position: relative
 }
 /* line 161, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 130, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 133, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 143, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .theme-overlay::before {
     background: #1696e7 none repeat scroll 0 0;
@@ -311,11 +309,12 @@ ul {
     top: 0;
     width: 100%
 }
+/* line 133, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 130, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .mb-90 {
     margin-bottom: 90px
 }
 /* line 182, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 157, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .overlay2::before {
     position: absolute;
     content: "";
@@ -327,7 +326,6 @@ ul {
     z-index: -1;
     opacity: 0.5
 }
-/* line 147, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .overlay2::before {
     position: absolute;
     content: "";
@@ -337,6 +335,8 @@ ul {
     height: 100%;
     z-index: -1
 }
+/* line 157, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 147, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .owl-carousel .owl-nav div {
     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
     height: 40px;
@@ -353,21 +353,21 @@ ul {
     transition: all 0.3s ease 0s;
     width: 40px
 }
-.separator {
-    border-top: 1px solid #f2f2f2
-}
-/* line 174, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 178, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-.section-padding {
-    padding-top: 120px;
-    padding-bottom: 120px
-}
 @media (min-width: 768px) and (max-width: 991px) {
     /* line 182, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
     .mb-90 {
         margin-bottom: 45px
     }
 }
+.separator {
+    border-top: 1px solid #f2f2f2
+}
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px
+}
+/* line 178, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 174, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .owl-carousel .owl-nav div.owl-next i {
     position: relative;
     right: 0;
@@ -379,14 +379,10 @@ ul {
         margin-bottom: 30px
     }
 }
-/* line 233, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 194, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* owl-carousel button style */
+/* line 233, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 213, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-.owl-carousel .owl-nav div.owl-next {
-    left: auto;
-    right: -30px
-}
 .btn {
     border: none;
     padding: 10px 65px 10px 31px;
@@ -407,8 +403,12 @@ ul {
     top: 0
 }
 /* line 216, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 260, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 223, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+.owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -30px
+}
+/* line 260, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn i {
     color: #fff;
     font-size: 13px;
@@ -420,17 +420,17 @@ ul {
     -o-transition: 0.4s;
     transition: 0.4s
 }
-.owl-carousel:hover .owl-nav div:hover {
-    color: #fff;
-    background: #ff3500
-}
-/* line 236, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 279, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 246, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .owl-carousel:hover .owl-nav div {
     opacity: 1;
     visibility: visible
 }
-/* line 279, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 236, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+.owl-carousel:hover .owl-nav div:hover {
+    color: #fff;
+    background: #ff3500
+}
 .btn2 i {
     color: #FF3514;
     font-size: 13px;
@@ -443,24 +443,23 @@ ul {
     transition: 0.4s
 }
 /* line 275, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-.btn:hover i {
-    left: 30px
-}
 .btn2:hover i {
     left: 30px
 }
+/* line 269, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn:hover {
     background-position: left
 }
-/* line 269, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+.btn:hover i {
+    left: 30px
+}
 .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: none
 }
 /* line 320, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 290, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 299, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 305, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 290, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn2 {
     padding: 15px 65px 20px 31px;
     text-transform: capitalize;
@@ -472,16 +471,17 @@ ul {
     border: 1px solid #FF3514;
     background: none
 }
+/* line 305, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .about-btn {
     padding: 18px 43px
 }
 /* line 332, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 316, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-.btn2:hover {
-    color: #FF3514
-}
 .header-btn {
     padding: 18px 43px
+}
+.btn2:hover {
+    color: #FF3514
 }
 /* line 311, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .black-btn {
@@ -489,13 +489,13 @@ ul {
     background: #000;
     display: inline-block
 }
-/* line 345, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 325, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 328, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 /* line 341, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .hero-btn {
     padding: 17px 65px 17px 31px
 }
-/* line 328, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 325, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 345, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .black-btn::before {
     background: #331391
 }
@@ -505,12 +505,12 @@ ul {
     background: #FF3514;
     color: #fff !important
 }
+/* line 336, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .white-btn {
     padding: 30px 39px;
     background: #fff;
     color: #072366 !important
 }
-/* line 336, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .borders-btn {
     padding: 14px 35px;
     background: none;
@@ -518,6 +518,17 @@ ul {
     border-radius: 0 10px;
     display: inline-block;
     color: #ff2656
+}
+/* line 393, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 349, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+.borders-btn::before {
+    background: #331391
+}
+.cal-btn i {
+    color: #09cc7f !important;
+    font-size: 31px;
+    font-weight: 300;
+    margin-right: 10px
 }
 .cal-btn > p {
     color: #072366 !important;
@@ -528,17 +539,6 @@ ul {
     position: relative;
     top: -7px
 }
-.cal-btn i {
-    color: #09cc7f !important;
-    font-size: 31px;
-    font-weight: 300;
-    margin-right: 10px
-}
-/* line 349, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-.borders-btn::before {
-    background: #331391
-}
-/* line 393, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .border-btn {
     border: 1px solid #ff5600;
     color: #464d65;
@@ -577,12 +577,12 @@ ul {
     font-size: 16px;
     border-radius: 0
 }
+/* line 368, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 380, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .border-btn:hover::before {
     transform: scaley(1);
     border: 1px solid transparent
 }
-/* line 368, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 380, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .border-btn::before {
     border: 1px solid transparent;
     content: "";
@@ -601,7 +601,7 @@ ul {
     border-radius: 0
 }
 /* line 462, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 436, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 417, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .section-over1::before {
     position: absolute;
     content: "";
@@ -615,11 +615,11 @@ ul {
     z-index: -1;
     background-repeat: no-repeat
 }
-/* line 417, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .section-over1 {
     position: relative;
     z-index: 1
 }
+/* line 436, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 #scrollUp, #back-top {
     background: #FF3514;
     height: 50px;
@@ -636,13 +636,21 @@ ul {
     box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2)
 }
 /* line 483, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* line 445, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/* button style */
 /* line 442, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* button style */
 /* line 466, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 445, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 #scrollUp a i, #back-top a i {
     display: block;
     line-height: 50px
+}
+.breadcrumb > .active {
+    color: #888
+}
+/* line 495, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* scrollUp */
+#scrollUp:hover {
+    color: #fff
 }
 @media (max-width: 575px) {
     /* line 466, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -650,14 +658,10 @@ ul {
         right: 16px
     }
 }
-/* line 495, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-#scrollUp:hover {
-    color: #fff
+.mt-5 {
+    margin-top: 5px
 }
-.breadcrumb > .active {
-    color: #888
-}
-/* scrollUp */
+/*--- Margin & Padding --*/
 .sticky-bar {
     left: 0;
     margin: auto;
@@ -672,24 +676,20 @@ ul {
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
     background: #fff
 }
-.mt-5 {
-    margin-top: 5px
-}
 /* Sticky*/
-/* line 490, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-/*--- Margin & Padding --*/
 /* line 520, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
+/* line 490, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .mt-10 {
     margin-top: 10px
 }
+/*-- Margin Top --*/
+/* Sticky end */
 .mt-20 {
     margin-top: 20px
 }
-/*-- Margin Top --*/
 .mt-25 {
     margin-top: 25px
 }
-/* Sticky end */
 .mt-15 {
     margin-top: 15px
 }
@@ -698,6 +698,9 @@ ul {
 }
 .mt-55 {
     margin-top: 55px
+}
+.mt-50 {
+    margin-top: 50px
 }
 .mt-40 {
     margin-top: 40px
@@ -708,23 +711,20 @@ ul {
 .mt-45 {
     margin-top: 45px
 }
-.mt-50 {
-    margin-top: 50px
-}
 .mt-60 {
     margin-top: 60px
 }
 .mt-85 {
     margin-top: 85px
 }
-.mt-80 {
-    margin-top: 80px
+.mt-75 {
+    margin-top: 75px
 }
 .mt-70 {
     margin-top: 70px
 }
-.mt-75 {
-    margin-top: 75px
+.mt-80 {
+    margin-top: 80px
 }
 .mt-65 {
     margin-top: 65px
@@ -738,14 +738,14 @@ ul {
 .mt-115 {
     margin-top: 115px
 }
-.mt-110 {
-    margin-top: 110px
-}
 .mt-105 {
     margin-top: 105px
 }
 .mt-90 {
     margin-top: 90px
+}
+.mt-110 {
+    margin-top: 110px
 }
 .mt-120 {
     margin-top: 120px
@@ -756,14 +756,14 @@ ul {
 .mt-125 {
     margin-top: 125px
 }
-.mt-135 {
-    margin-top: 135px
+.mt-130 {
+    margin-top: 130px
 }
 .mt-140 {
     margin-top: 140px
 }
-.mt-130 {
-    margin-top: 130px
+.mt-135 {
+    margin-top: 135px
 }
 .mt-150 {
     margin-top: 150px
@@ -787,51 +787,51 @@ ul {
     margin-top: 180px
 }
 /*-- Margin Bottom --*/
-.mt-190 {
-    margin-top: 190px
-}
-.mt-195 {
-    margin-top: 195px
+.mt-185 {
+    margin-top: 185px
 }
 .mt-200 {
     margin-top: 200px
 }
-.mt-185 {
-    margin-top: 185px
+.mt-195 {
+    margin-top: 195px
+}
+.mt-190 {
+    margin-top: 190px
 }
 .mb-10 {
     margin-bottom: 10px
 }
 /* line 525, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
-.mb-30 {
-    margin-bottom: 30px
-}
-.mb-20 {
-    margin-bottom: 20px
+.mb-15 {
+    margin-bottom: 15px
 }
 .mb-5 {
     margin-bottom: 5px
 }
-.mb-15 {
-    margin-bottom: 15px
+.mb-20 {
+    margin-bottom: 20px
+}
+.mb-30 {
+    margin-bottom: 30px
 }
 .mb-25 {
     margin-bottom: 25px
 }
-.mb-55 {
-    margin-bottom: 55px
+.mb-40 {
+    margin-bottom: 40px
 }
 .mb-45 {
     margin-bottom: 45px
 }
-.mb-40 {
-    margin-bottom: 40px
+.mb-50 {
+    margin-bottom: 50px
 }
 .mb-35 {
     margin-bottom: 35px
 }
-.mb-50 {
-    margin-bottom: 50px
+.mb-55 {
+    margin-bottom: 55px
 }
 .mb-60 {
     margin-bottom: 60px
@@ -839,17 +839,17 @@ ul {
 .mb-85 {
     margin-bottom: 85px
 }
-.mb-70 {
-    margin-bottom: 70px
-}
-.mb-75 {
-    margin-bottom: 75px
-}
 .mb-80 {
     margin-bottom: 80px
 }
+.mb-70 {
+    margin-bottom: 70px
+}
 .mb-65 {
     margin-bottom: 65px
+}
+.mb-75 {
+    margin-bottom: 75px
 }
 .mb-100 {
     margin-bottom: 100px
@@ -863,11 +863,11 @@ ul {
 .mb-110 {
     margin-bottom: 110px
 }
-.mb-105 {
-    margin-bottom: 105px
-}
 .mb-120 {
     margin-bottom: 120px
+}
+.mb-105 {
+    margin-bottom: 105px
 }
 .mb-125 {
     margin-bottom: 125px
@@ -875,35 +875,35 @@ ul {
 .mb-150 {
     margin-bottom: 150px
 }
+.mb-140 {
+    margin-bottom: 140px
+}
 .mb-135 {
     margin-bottom: 135px
-}
-.mb-130 {
-    margin-bottom: 130px
 }
 .mb-145 {
     margin-bottom: 145px
 }
-.mb-140 {
-    margin-bottom: 140px
+.mb-130 {
+    margin-bottom: 130px
 }
 .mb-155 {
     margin-bottom: 155px
 }
-.mb-165 {
-    margin-bottom: 165px
+.mb-180 {
+    margin-bottom: 180px
 }
 .mb-170 {
     margin-bottom: 170px
 }
-.mb-175 {
-    margin-bottom: 175px
-}
 .mb-160 {
     margin-bottom: 160px
 }
-.mb-180 {
-    margin-bottom: 180px
+.mb-165 {
+    margin-bottom: 165px
+}
+.mb-175 {
+    margin-bottom: 175px
 }
 .mb-185 {
     margin-bottom: 185px
@@ -922,20 +922,20 @@ ul {
 .ml-10 {
     margin-left: 10px
 }
+.ml-20 {
+    margin-left: 20px
+}
+.ml-25 {
+    margin-left: 25px
+}
+.ml-30 {
+    margin-left: 30px
+}
 .ml-5 {
     margin-left: 5px
 }
 .ml-15 {
     margin-left: 15px
-}
-.ml-30 {
-    margin-left: 30px
-}
-.ml-25 {
-    margin-left: 25px
-}
-.ml-20 {
-    margin-left: 20px
 }
 .ml-35 {
     margin-left: 35px
